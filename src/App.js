@@ -1,22 +1,30 @@
+import Line from "./components/Line";
+import Header from "./scenes/Header";
+import Navbar from "./scenes/Navbar";
+import Portfolio from "./scenes/Portfolio";
+import About from './scenes/About'
+import Prices from './scenes/Prices'
+import Service from "./scenes/Service";
+import Application from "./scenes/Application";
+import Footer from "./scenes/Footer";
+
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-
-      <header className="flex justify-between items-center py-10 border-2 border-dotted border-neutral-600">
-
-          <div className="text-5xl">
-            LOGO
-          </div>
-
-          <ul className="flex justify-between  gap-[100px] text-xl">
-            <li className="hover:bg-violet-600 transition-colors "><a href="#">О нас </a></li>
-            <li><a href="#">Наши работы</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </header>
-      </div>
+    <div className="app ">
+      <Navbar/>
+      <Header/>
+      {/* <Line/> */}
+      <div className={`h-[10px] w-ful bg-gray`} />
+      <Portfolio/>
+      <Line/>
+      <About/>
+      <Line/>
+      <Service/>
+      <Line/>
+      <Prices/>
+      <Line/>
+      <Application/>
+      <Footer/>
     </div>
   );
 }
