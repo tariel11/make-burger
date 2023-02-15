@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const Service = () => {
   return (
-    <section className=' bg-service bg-no-repeat bg-center'>
-    <div className='w-5/6 mx-auto py-8'>
+  <section className=' bg-service bg-no-repeat bg-center'>
+    <div className='w-5/6 mx-auto py-12 md:py-20'>
         <motion.h2 
           initial="hidden"
           whileInView="visible"
@@ -22,47 +22,20 @@ const Service = () => {
 
       <div className='flex flex-col gap-8'>
 
-        <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.7 }}
-            variants={{
-              hidden: { opacity: 0, x: 50 },
-              visible: { opacity: 1, x: 0 },
-            }}
-        >
+        <div>
             
         <ServiceItem/>
-      </motion.div>
+      </div>
 
-      <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.7 }}
-            variants={{
-              hidden: { opacity: 0, x: -50 },
-              visible: { opacity: 1, x: 0 },
-            }}
-        >
+      <div>
             
         <ServiceItem/>
-      </motion.div>
+      </div>
 
-      <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.7 }}
-            variants={{
-              hidden: { opacity: 0, x: 50 },
-              visible: { opacity: 1, x: 0 },
-            }}
-        >
+      <div>
             
         <ServiceItem/>
-      </motion.div>
+      </div>
 
       </div>
     </div>

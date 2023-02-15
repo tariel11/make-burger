@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <header className='bg-black py-8'>
+    <header className='bg-black py-12 md:py-20'>
       <div>
         <motion.h1 
           initial="hidden"

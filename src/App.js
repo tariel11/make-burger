@@ -12,18 +12,25 @@ function App() {
   return (
     <div className="app ">
       <Navbar/>
+
       <Header/>
-      {/* <Line/> */}
-      <div className={`h-[10px] w-ful bg-gray`} />
+
+      <Line/>
       <Portfolio/>
+
       <Line/>
       <About/>
+      
       <Line/>
       <Service/>
+
       <Line/>
       <Prices/>
+
       <Line/>
       <Application/>
+
+      <Line/>
       <Footer/>
     </div>
   );
