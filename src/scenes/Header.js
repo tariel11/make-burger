@@ -23,7 +23,7 @@ const Header = () => {
           <img src={header_bg} alt="header_bg" className='w-full object-contain' />
         </div>
         <motion.p 
-          className='text-gray text-center w-[90%] mx-auto md:text-xl'
+          className='text-gray text-center w-2/3 mx-auto md:text-xl'
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}

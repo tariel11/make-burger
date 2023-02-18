@@ -5,7 +5,7 @@ import NavList from '../components/NavList'
 const Footer = () => {
   return (
     <footer>
-      <div className='w-5/6 mx-auto py-12 md:py-20'>
+      <div className='w-2/3 mx-auto py-12 md:py-20'>
         <div className='w-6/6 mx-auto text-center flex flex-col gap-14 text-sm md:text-lg'>
           <Logo/>
           <NavList

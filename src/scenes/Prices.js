@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Prices = () => {
   return (
     <section>
-      <div className='w-5/6 mx-auto py-12 md:py-20'>
+      <div className='w-2/3 mx-auto py-12 md:py-20'>
       <motion.h2 
           initial="hidden"
           whileInView="visible"
@@ -20,19 +20,19 @@ const Prices = () => {
         >
             цены
         </motion.h2>
-        <div className='flex flex-col gap-8 md:flex-row'>
+        <div className='flex flex-col gap-8 lg:flex-row'>
           
-          <div>
+        
             <PriceItem/>
-          </div>
+          
 
-          <div>
+        
             <PriceItem/>
-          </div>
+          
 
-          <div>  
+        
             <PriceItem/>
-          </div>
+          
 
         </div>
       </div>

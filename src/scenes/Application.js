@@ -1,11 +1,10 @@
 import React from 'react'
 import Button from '../components/Button'
-import { motion } from "framer-motion";
 
 const Application = () => {
   return (
     <section className=' bg-application bg-no-repeat bg-cover'>
-      <div className='w-5/6 mx-auto py-12 md:py-20'>
+      <div className='w-2/3 mx-auto py-12 md:py-20'>
 
         <div className='relative bg-black_2 p-5 md:p-8 md:grid grid-cols-2 text-sm md:text-xl'>
           <div className=''>
@@ -18,7 +17,9 @@ const Application = () => {
               <input className=' bg-inherit pb-2 border-b-2 border-gray' type="text" required placeholder='Ваше имя'/>
               <input className=' bg-inherit pb-2 border-b-2 border-gray' type="text" required placeholder='Email'/>
               <input className=' bg-inherit pb-2 border-b-2 border-gray' type="text" required placeholder='Письмо'/>
-              <Button/>
+              <Button
+                text='Отправить'
+              />
             </form>
           </div>
         </div>

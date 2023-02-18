@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <section>
-      <div className='w-5/6 mx-auto py-12 md:py-20 md:grid grid-cols-[1fr,2fr]'>
+      <div className='w-2/3 mx-auto py-12 md:py-20 md:grid grid-cols-[1fr,2fr]'>
         <motion.h2 
           initial="hidden"
           whileInView="visible"
