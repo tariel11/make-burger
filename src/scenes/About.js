@@ -47,10 +47,11 @@ const About = () => {
           
         </div>
 
-        <div className=' col-[1/-1]'>
+        
+      </div>
+      <div className=' col-[1/-1]'>
             <img src={bg} alt="bg" className='w-full object-contain'/>
         </div>
-      </div>
     </section>
   )
 }

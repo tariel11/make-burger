@@ -7,7 +7,7 @@ const Button = ({text = 'Заказать', width}) => {
   isDescktop ? width = "w-[254px]" : width = "w-full"
   
   return (
-    <button className={`${width} block mx-auto  rounded-[30px] bg-red py-3 text-lg font-medium text-white`}>{text}</button>
+    <button className={`${width} block mx-auto  rounded-[30px] bg-red py-3 text-lg font-semibold text-white`}>{text}</button>
   )
 }
 
