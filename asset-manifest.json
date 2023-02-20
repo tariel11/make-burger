@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mty-studio/static/css/main.1d60ef1c.css",
-    "main.js": "/mty-studio/static/js/main.5b3a697a.js",
+    "main.css": "/mty-studio/static/css/main.ee62433f.css",
+    "main.js": "/mty-studio/static/js/main.cc4156c3.js",
     "static/media/ser_bg.png": "/mty-studio/static/media/ser_bg.3daba1b22374762a7610.png",
     "static/media/header-bg.jpeg": "/mty-studio/static/media/header-bg.b4a0a44d9d734c7b0e09.jpeg",
     "static/media/test.jpeg": "/mty-studio/static/media/test.28152b989e5860fc2a56.jpeg",
@@ -10,11 +10,11 @@
     "static/media/BebasNeue.ttf": "/mty-studio/static/media/BebasNeue.ea0a2d99a89950317a4f.ttf",
     "static/media/amico.png": "/mty-studio/static/media/amico.2360205b0b0d51588d17.png",
     "index.html": "/mty-studio/index.html",
-    "main.1d60ef1c.css.map": "/mty-studio/static/css/main.1d60ef1c.css.map",
-    "main.5b3a697a.js.map": "/mty-studio/static/js/main.5b3a697a.js.map"
+    "main.ee62433f.css.map": "/mty-studio/static/css/main.ee62433f.css.map",
+    "main.cc4156c3.js.map": "/mty-studio/static/js/main.cc4156c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d60ef1c.css",
-    "static/js/main.5b3a697a.js"
+    "static/css/main.ee62433f.css",
+    "static/js/main.cc4156c3.js"
   ]
 }
