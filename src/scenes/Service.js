@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const Service = () => {
   return (
-  <section id='service' className=' bg-service bg-no-repeat bg-center'>
-    <div className='w-2/3 mx-auto py-12 md:py-20'>
+  <section  className=' bg-service bg-no-repeat bg-center'>
+    <div id='service' className='w-2/3 mx-auto py-20 md:py-20'>
         <motion.h2 
           initial="hidden"
           whileInView="visible"

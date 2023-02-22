@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section id='about'>
-      <div className='w-2/3 mx-auto py-12 md:py-20 md:grid grid-cols-[1fr,2fr]'>
+    <section >
+      <div id='about' className='w-2/3 mx-auto py-20 md:py-20 md:grid grid-cols-[1fr,2fr]'>
         <motion.h2 
           initial="hidden"
           whileInView="visible"
@@ -51,7 +51,7 @@ const About = () => {
       </div>
       <div className=' col-[1/-1]'>
             <img src={bg} alt="bg" className='w-full object-contain'/>
-        </div>
+      </div>
     </section>
   )
 }

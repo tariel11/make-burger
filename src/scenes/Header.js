@@ -5,7 +5,7 @@ import Button from '../components/Button';
 
 const Header = () => {
   return (
-    <header className='bg-black py-12 md:py-20'>
+    <header className='bg-black pt-[90px] pb-12 md:pb-20'>
       <div>
         <motion.h1 
           initial="hidden"
