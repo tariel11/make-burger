@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Portfolio = () => {
   return (
-    <section>
+    <section id='portfolio'>
       <div className='w-2/3 mx-auto py-12 md:py-20'>
         <motion.h2
           initial="hidden"

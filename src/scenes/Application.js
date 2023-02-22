@@ -3,7 +3,7 @@ import Button from '../components/Button'
 
 const Application = () => {
   return (
-    <section className=' bg-application bg-no-repeat bg-cover'>
+    <section id='application' className=' bg-application bg-no-repeat bg-cover'>
       <div className='w-2/3 mx-auto py-12 md:py-20'>
 
         <div className='relative bg-black_2 p-5 md:p-8 md:grid grid-cols-2 text-sm md:text-xl'>

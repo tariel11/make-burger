@@ -1,6 +1,7 @@
 import React from 'react'
 import header_bg from '../img/header-bg.jpeg'
 import { motion } from "framer-motion";
+import Button from '../components/Button';
 
 const Header = () => {
   return (
@@ -19,11 +20,8 @@ const Header = () => {
         >
           Создать сайт проще, <br /> чем открыть ноутбук
         </motion.h1>
-        <div className='mb-5'>
-          <img src={header_bg} alt="header_bg" className='w-full object-contain' />
-        </div>
         <motion.p 
-          className='text-gray text-center w-2/3 mx-auto md:text-xl'
+          className='text-gray text-center w-2/5 mx-auto md:text-xl mb-5'
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -35,6 +33,12 @@ const Header = () => {
           >
             Мы - компания по разработке ПО, которое превращает ваши идеи в эффективные инструменты для бизнеса
           </motion.p>
+          <Button
+              text='Обсудить проект'
+            />
+        <div className='mb-5'>
+          <img src={header_bg} alt="header_bg" className=' mt-10 w-full object-contain' />
+        </div>
       </div>
     </header>
   )
