@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/mty-studio/static/css/main.34876416.css",
-    "main.js": "/mty-studio/static/js/main.39c166c1.js",
+    "main.css": "/mty-studio/static/css/main.6cff0e54.css",
+    "main.js": "/mty-studio/static/js/main.04e106f8.js",
     "static/media/psim.jpeg": "/mty-studio/static/media/psim.a96bac7a0b681299d40d.jpeg",
-    "static/media/ser_bg.png": "/mty-studio/static/media/ser_bg.3daba1b22374762a7610.png",
+    "static/media/service_bg.png": "/mty-studio/static/media/service_bg.3daba1b22374762a7610.png",
     "static/media/header_bg.jpeg": "/mty-studio/static/media/header_bg.b4a0a44d9d734c7b0e09.jpeg",
     "static/media/test.jpeg": "/mty-studio/static/media/test.28152b989e5860fc2a56.jpeg",
     "static/media/app_bg.jpeg": "/mty-studio/static/media/app_bg.0dbb948ea3a25f973af7.jpeg",
@@ -12,13 +12,16 @@
     "static/media/02.jpeg": "/mty-studio/static/media/02.05cbe350c08829ece3e2.jpeg",
     "static/media/about.png": "/mty-studio/static/media/about.8407be5a250ab96d777c.png",
     "static/media/BebasNeue.ttf": "/mty-studio/static/media/BebasNeue.ea0a2d99a89950317a4f.ttf",
-    "static/media/amico.png": "/mty-studio/static/media/amico.2360205b0b0d51588d17.png",
+    "static/media/02.png": "/mty-studio/static/media/02.5b0ccfe213d632f51a77.png",
+    "static/media/04.png": "/mty-studio/static/media/04.6fa7ffd618e51a756dab.png",
+    "static/media/01.png": "/mty-studio/static/media/01.2360205b0b0d51588d17.png",
+    "static/media/03.png": "/mty-studio/static/media/03.56a1eb3e01de9d7bc174.png",
     "index.html": "/mty-studio/index.html",
-    "main.34876416.css.map": "/mty-studio/static/css/main.34876416.css.map",
-    "main.39c166c1.js.map": "/mty-studio/static/js/main.39c166c1.js.map"
+    "main.6cff0e54.css.map": "/mty-studio/static/css/main.6cff0e54.css.map",
+    "main.04e106f8.js.map": "/mty-studio/static/js/main.04e106f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.34876416.css",
-    "static/js/main.39c166c1.js"
+    "static/css/main.6cff0e54.css",
+    "static/js/main.04e106f8.js"
   ]
 }
