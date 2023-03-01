@@ -1,37 +1,24 @@
 import Line from "./components/Line";
-import Header from "./scenes/Header";
-import Navbar from "./scenes/Navbar";
-import Portfolio from "./scenes/Portfolio";
-import About from './scenes/About'
-import Prices from './scenes/Prices'
-import Service from "./scenes/Service";
-import Application from "./scenes/Application";
 import Footer from "./scenes/Footer";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Home from "./pages/Home";
+import Project from "./pages/Project";
+
+import ScrollToTop from "./helpers/skrollToTOp";
 
 function App() {
   return (
     <div className="app ">
-      <Navbar/>
-
-      <Header/>
-
-      <Line/>
-      <Portfolio/>
-
-      <Line/>
-      <About/>
-      
-      <Line/>
-      <Service/>
-
-      <Line/>
-      <Prices/>
-
-      <Line/>
-      <Application/>
-
-      <Line/>
-      <Footer/>
+      <Router>
+          <ScrollToTop/>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="*" element={<Home/>} />
+            <Route path="/project/:id" element={<Project/>} />
+          </Routes>
+        <Line/>
+        <Footer/>
+      </Router>
     </div>
   );
 }

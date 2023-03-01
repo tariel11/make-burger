@@ -1,6 +1,7 @@
 import React from 'react'
 import PriceItem from '../components/PriceItem'
 import { motion } from "framer-motion";
+import { prices } from '../helpers/prices';
 
 
 const Prices = () => {
@@ -22,17 +23,12 @@ const Prices = () => {
         </motion.h2>
         <div className='w-full  ss:w-4/6 lg:w-full mx-auto flex flex-col gap-8 lg:flex-row'>
           
-        
-            <PriceItem/>
-          
-
-        
-            <PriceItem/>
-          
-
-        
-            <PriceItem/>
-          
+          {prices.map((price, index) => 
+            <PriceItem
+              key={price.title}
+              title={price.title}
+            />
+          )}
 
         </div>
       </div>

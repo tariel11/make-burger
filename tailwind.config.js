@@ -20,14 +20,13 @@ module.exports = {
         bebas: ["Bebas Neue", "cursive"],
       },
       backgroundImage: (theme) => ({
-        application: "url('./img/app_bg.jpeg')",
-        service: "url('./img/ser_bg.png')",
+        application: "url('./img/home/app_bg.jpeg')",
+        service: "url('./img/home/service_bg.png')",
 
         "gradient-rainblue":
           "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
       }),
       content: {
-        application: "url('./img/app_bg.jpeg')",
         person1: "url('./assets/person-1.png')",
         person2: "url('./assets/person-2.png')",
         person3: "url('./assets/person-3.png')",

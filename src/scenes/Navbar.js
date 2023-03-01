@@ -7,7 +7,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <nav className='fixed md:relative w-full z-20 bg-black_2'>
+    <nav className='fixed  w-full z-20 bg-black_2'>
       <div className='w-2/3 mx-auto flex items-center justify-center sm:flex-col sm:gap-5 lg:flex-row lg:gap-[100px] py-4'>
 
         <div onClick={() => setShowMenu(!showMenu)} className=' z-50 absolute top-1/2 left-6 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-1 cursor-pointer sm:hidden'>

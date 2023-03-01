@@ -1,11 +1,11 @@
 import React from 'react'
-import header_bg from '../img/header-bg.jpeg'
+import header_bg from '../img/home/header_bg.jpeg'
 import { motion } from "framer-motion";
 import Button from '../components/Button';
 
 const Header = () => {
   return (
-    <header className='bg-black pt-[90px] pb-12 md:pb-20'>
+    <header className='bg-black pt-[100px] sm:pt-[140px] pb-12 md:pb-20'>
       <div>
         <motion.h1 
           initial="hidden"
@@ -21,7 +21,7 @@ const Header = () => {
           Создать сайт проще, <br /> чем открыть ноутбук
         </motion.h1>
         <motion.p 
-          className='text-gray text-center w-2/5 mx-auto md:text-xl mb-5'
+          className='text-gray text-center w-3/5 mx-auto md:text-xl mb-5'
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}

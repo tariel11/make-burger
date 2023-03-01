@@ -1,6 +1,7 @@
 import React from 'react'
 import PortfolioItem from '../components/PortfolioItem'
 import { motion } from "framer-motion";
+import {projects} from "../helpers/projectsList"
 
 const Portfolio = () => {
   return (
@@ -19,24 +20,16 @@ const Portfolio = () => {
         >
           ПОРТФОЛИО
         </motion.h2>
-        <div className='grid grid-cols-1 gap-8 sm:grid-cols-2'>
+        <div className='relative grid grid-cols-1 gap-8 sm:grid-cols-2'>
 
-          <div>
-            <PortfolioItem/>
-          </div>
-
-          <div>
-            <PortfolioItem/>
-          </div>
-
-          <div>
-            <PortfolioItem/>
-          </div>
-
-          <div>
-            <PortfolioItem/>
-          </div>
-
+         {projects.map((project, index) => 
+            <PortfolioItem
+              key={index}
+              title={project.title}
+              img={project.img}
+              index={index}
+            />
+         )}
         </div>
       </div>
     </section>

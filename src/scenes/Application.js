@@ -8,7 +8,8 @@ const Application = () => {
         <div className='relative bg-black_2 p-5 md:p-8 md:grid grid-cols-2 text-sm md:text-xl'>
           <div className=''>
             <h3 className='font-semibold mb-8 text-2xl md:text-4xl lg:text-5xl '>Форма заявки</h3>
-            <p>Если вы хотите создать собственный сайт, заполните заявку и мы свяжемся с вами в ближайшее времяю</p>
+            <p>Хотите создать собственный сайт? <br/>
+Заполните заявку и мы свяжемся с вами в ближайшее время.</p>
           </div>
           <hr className='hidden md:block absolute top-0 left-1/2 w-[2px] h-full bg-gray'/>
           <div className='mt-8 md:pl-8'>
