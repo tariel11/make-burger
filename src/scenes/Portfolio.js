@@ -5,7 +5,7 @@ import {projects} from "../helpers/projectsList"
 
 const Portfolio = () => {
   return (
-    <section >
+    <section className='portfolio' >
       <div id='portfolio' className='w-2/3 mx-auto py-20 md:py-20'>
         <motion.h2
           initial="hidden"

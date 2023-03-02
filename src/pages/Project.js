@@ -30,7 +30,7 @@ const Project = () => {
           >
           {project.title}
         </motion.h1>
-        <div className='mb-5'>
+        <div className='mb-5 shadow shadow-orange-50'>
           <img src={project.imgBig} alt={project.title} />
         </div>
 

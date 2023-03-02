@@ -1,6 +1,7 @@
 import React from 'react'
 import PriceItem from '../components/PriceItem'
 import { motion } from "framer-motion";
+
 import { prices } from '../helpers/prices';
 
 
@@ -27,6 +28,7 @@ const Prices = () => {
             <PriceItem
               key={price.title}
               title={price.title}
+              items={price.items}
             />
           )}
 
