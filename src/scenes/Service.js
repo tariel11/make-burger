@@ -6,8 +6,8 @@ import { services } from '../helpers/services';
 
 const Service = () => {
   return (
-  <section  className='service'>
-    <div id='service' className='w-2/3 mx-auto py-20 md:py-20'>
+  <section  className='service bg-service bg-cover'>
+    <div id='service' className='  w-2/3 mx-auto py-20 md:py-20'>
         <motion.h2 
           initial="hidden"
           whileInView="visible"

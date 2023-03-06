@@ -2,7 +2,7 @@ import React from 'react'
 
 const Application = () => {
   return (
-    <section  className='application bg-no-repeat bg-cover'>
+    <section  className=' bg-application application bg-no-repeat bg-cover'>
       <div id='application' className='w-2/3 mx-auto py-20 md:py-20'>
 
         <div className='relative bg-black_2 p-5 md:p-8 md:grid grid-cols-2 text-sm md:text-xl'>

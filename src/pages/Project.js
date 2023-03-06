@@ -3,7 +3,6 @@ import { Link, useParams } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { projects } from '../helpers/projectsList'
 import Logo from '../components/Logo';
-import toolImg from '../img/tools.png'
 
 const Project = () => {
   const {id} = useParams();
@@ -38,53 +37,47 @@ const Project = () => {
             <div className='mb-5 border-b-2 border-black pb-5'>
               <h4 className='mb-5 text-xl font-semibold'>Инструменты</h4>
               <ul className='flex gap-5' >
-                <li>
-                  <img src={toolImg} alt="tool" />
-                </li>
-                <li>
-                  <img src={toolImg} alt="tool" />
-                </li>
-                <li>
-                  <img src={toolImg} alt="tool" />
-                </li>
+               {project.tools.map(tool => 
+                  <li key={tool} className=''>
+                    <img src={tool} alt={tool} />
+                  </li>
+                )}
               </ul>
             </div>
             <div  className='mb-5 border-b-2 border-black pb-5'>
               <h4 className='mb-5 text-xl font-semibold'>Дополнительно</h4>
               <ul className='flex flex-col gap-5 text-gray'>
-                <li className='flex justify-between' >
+                <li className='flex justify-between gap-2' >
                   <p>Срок выполнения: </p>
-                  <p>7 дней</p>
+                  <p> {project.time} дней</p>
                 </li>
-                <li className='flex justify-between' >
+                <li className='flex justify-between gap-2' >
                   <p>Стоимость: </p>
-                  <p>50 000 сом</p>
+                  <p> {project.price} <span>сом</span></p>
                 </li>
-                <li className='flex justify-between' >
+                <li className='flex justify-between gap-2' >
                   <p>Трафик</p>
-                  <p>30%</p>
+                  <p> {project.traffic} % </p>
                 </li>
               </ul>
             </div>
             <div>
               <h4 className='mb-5 text-xl font-semibold'>Визуальные акценты и айдентика</h4>
               <ul className='flex flex-col gap-5' >
-                <li className='flex justify-between' >
+                <li className='flex justify-between gap-2' >
                   <p>Шрифт: </p>
-                  <p>Inter, Bebas Neue</p>
+                  <p> {project.font} </p>
                 </li>
-                <li className='flex justify-between items-center'>
+                <li className='flex justify-between items-center gap-2'>
                   <p>Основной цвет: </p>
-                  <div className='flex gap-4' >
-                    <div>
-                      <div className='mb-2 w-16 h-16 bg-black rounded-full' />
-                      <span>000000</span>
-                    </div>
-                    <div>
-                      <div  className='mb-2 w-16 h-16 bg-[#f5f5f5] rounded-full' />
-                      <span> F5F5F5</span>
-                    </div>
-                  </div>
+                  <ul className='flex gap-4' >
+                    {project.colors.map(color =>    
+                      <li key={color}>
+                        <div className={`mb-2 w-10 h-10 mx-auto rounded-full bg-[${color}] ` } />
+                        <span className=' text-xs' >{color}</span>
+                      </li>
+                      )}
+                  </ul>
                 </li>
               </ul>
             </div>

@@ -8,7 +8,12 @@ const PriceItem = ({title, items}) => {
       <ul className='flex flex-col gap-5 mb-7'>
 
         {items.map(item => 
-           <li key={item}> {item} </li>
+          <li 
+            key={item}
+            className='first:text-red'
+          > 
+              {item} 
+          </li>
         )}
       </ul>
       <div  >
