@@ -9,8 +9,8 @@ const PortfolioItem = ({title, img, index}) => {
     <NavLink to={`/project/${index}`} > 
       <div className='relative text-center group cursor-pointer duration-500'>
         <div className=' absolute w-full bg-black_bg top-0 left-0 h-full duration-500 z-10  group-hover:opacity-0' ></div>
-        <div className='w-full mb-5'>
-          <img src={img} alt="test" className='w-full object-contain' />
+        <div className='w-full mb-5 overflow-hidden'>
+          <img src={img} alt="test" className='w-full object-contain scale-110' />
         </div>
         <p className='text-lg md:text-xl'> {title} </p>
       </div>
