@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mty-studio/static/css/main.0ce6a9c6.css",
-    "main.js": "/mty-studio/static/js/main.7441eb45.js",
+    "main.css": "/mty-studio/static/css/main.f2810463.css",
+    "main.js": "/mty-studio/static/js/main.15bd7094.js",
     "static/media/03Big.jpeg": "/mty-studio/static/media/03Big.0d754774e017fab6271f.jpeg",
     "static/media/02Big.jpeg": "/mty-studio/static/media/02Big.ed074b38be85c32f5dd6.jpeg",
     "static/media/04Big.jpeg": "/mty-studio/static/media/04Big.ba0fbf4163dd364bb1f2.jpeg",
@@ -20,11 +20,11 @@
     "static/media/01.png": "/mty-studio/static/media/01.2360205b0b0d51588d17.png",
     "static/media/03.png": "/mty-studio/static/media/03.56a1eb3e01de9d7bc174.png",
     "index.html": "/mty-studio/index.html",
-    "main.0ce6a9c6.css.map": "/mty-studio/static/css/main.0ce6a9c6.css.map",
-    "main.7441eb45.js.map": "/mty-studio/static/js/main.7441eb45.js.map"
+    "main.f2810463.css.map": "/mty-studio/static/css/main.f2810463.css.map",
+    "main.15bd7094.js.map": "/mty-studio/static/js/main.15bd7094.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ce6a9c6.css",
-    "static/js/main.7441eb45.js"
+    "static/css/main.f2810463.css",
+    "static/js/main.15bd7094.js"
   ]
 }
